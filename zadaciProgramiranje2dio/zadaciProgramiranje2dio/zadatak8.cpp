@@ -25,7 +25,7 @@ void f(int x, int y)
 		if (y % 2 == 0)
 		{
 			brojA *= 10;
-			brojA += (x % 10);
+			brojA += (y % 10);
 		}
 		else
 		{
